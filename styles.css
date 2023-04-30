@@ -93,18 +93,21 @@ a {
     display: flex;
     flex: 1;
     gap: 45px;
+    justify-content: space-between;
 }
 
 .hero-info > * {
     flex: 1;
 }
 
+.hero-text {
+    max-width: 54ch;
+}
+
 .hero-image {
-    display: flex;
-    color: #e5e7eb;
-    background-color: #6D747D;
-    justify-content: center;
-    align-items: center;
+    max-width: 500px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 /* images */
